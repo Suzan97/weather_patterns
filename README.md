@@ -20,4 +20,29 @@ This project demonstrates how to analyze a weather dataset using both Python and
 ### Implementation
 
 The analysis uses the pandas library to load and manipulate the dataset. Various operations such as filtering, aggregating, and checking for null values are performed to extract meaningful insights from the data.
+
+    weather.ipynb
     
+## Part 2:SQL Analysis
+### Objectives
+1. Find all records where the weather was exactly clear.
+2. Find the number of times the wind speed was exactly 4 km/hr.
+3. Check if there are any NULL values present in the dataset.
+4. Find the mean visibility of the dataset.
+
+### Implementation
+The dataset is loaded into a SQLite database, and SQL queries are used to extract insights from the data.
+
+     weather.py
+     weather_data.db
+
+## Requirements
+
+* Python
+* pandas
+* sqlite3
+
+### How to Run
+1. Clone the repository.
+2. Ensure you have the necessary Python libraries installed (pandas, sqlite3).
+3. Run the Python script to perform the analysis.
